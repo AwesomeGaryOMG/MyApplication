@@ -37,15 +37,15 @@ class MainActivity : AppCompatActivity(), FragmentListener
                 .commit()
         }
 
-       findViewById<Button>(R.id.removeFragButton_id).setOnClickListener {
-           val myFrag = supportFragmentManager.findFragmentByTag("FragTag")
-           if (myFrag != null) {
-               supportFragmentManager
-                   .beginTransaction()
-                   .remove(myFrag)
-                   .commit()
-           }
-       }
+//       findViewById<Button>(R.id.removeFragButton_id).setOnClickListener {
+//           val myFrag = supportFragmentManager.findFragmentByTag("FragTag")
+//           if (myFrag != null) {
+//               supportFragmentManager
+//                   .beginTransaction()
+//                   .remove(myFrag)
+//                   .commit()
+//           }
+//       }
     }
 
 
