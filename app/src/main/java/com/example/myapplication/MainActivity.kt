@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+// Global variable
+var signedUser = false;
 class MainActivity : AppCompatActivity(), FragmentListener
 {
     override fun removeFragment() // required function
